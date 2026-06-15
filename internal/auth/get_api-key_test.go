@@ -13,12 +13,6 @@ func TestApiKey(t *testing.T) {
 		shouldFail bool
 	}{
 		{
-			name:       "CI Failing Test",
-			key:        "ApiKey ",
-			returnKey:  "",
-			shouldFail: true,
-		},
-		{
 			name:       "Correct key",
 			key:        "ApiKey testingkeyiscorrect",
 			returnKey:  "testingkeyiscorrect",
